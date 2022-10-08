@@ -1,0 +1,84 @@
+/* ANIMACIONES MOBILE*/
+@keyframes float {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(20%);
+  }
+}
+
+@media (min-width: 992px) {
+  /* ANIMACIONES */
+  @keyframes float {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(35%);
+    }
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  li,
+  ul,
+  a {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  header img {
+    display: inline-block;
+    height: auto;
+    max-width: 150%;
+    vertical-align: middle;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  h1 {
+    font-size: 55px;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 38px;
+  }
+  
+  button {
+    background: #fff;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 48px;
+  }
+
+  button:hover{
+      border-radius: 30px;
+      border: 2px solid black;
+      cursor: pointer;
+    }
+
+  
+  }
+
+

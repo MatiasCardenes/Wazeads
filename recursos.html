@@ -11,12 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-    crossorigin="anonymous"
-  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <script src="https://kit.fontawesome.com/ee46287eab.js" crossorigin="anonymous"></script>
     <title>Waze Ads</title>
@@ -25,29 +22,29 @@
   
   <body>
     <!-- EMPIEZA HEADER -->
-    <header class="main__header">
-      <div>
-        <a href="./index.html">
-      <img class="logo" src="./img/wazelogo.png" alt="logo empresa">
-    </a>
-      </div>
+    <header>
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container">
+            <div>
+              <a href="./index.html">
+            <img class="logo" src="./img/wazelogo.png" alt="logo empresa">
+          </a>
+            </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item pe-2">
                 <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item pe-2">
                 <a class="nav-link active" aria-current="page" href="./porquewaze.html">¿Por qué Waze?</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item pe-2">
                 <a class="nav-link active" aria-current="page" href="./soluciones.html">Soluciones</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item pe-2">
                 <a class="nav-link active" aria-current="page" href="./recursos.html">Recursos</a>
               </li>
               <li class="nav-item">
@@ -65,9 +62,8 @@
     <!-- EMPIEZA CONTENEDOR 1 -->
 
     <main>
-      <section>
-        <img src="./img/recursos1.jpg" alt="icono1recursos" />
-        <div>
+      <section class="contenedor1_recursos">
+        <div class="contenedor1_textos">
           <h1>Tendencia de categoría</h1>
           <p>
             En un panorama de consumidores en constante cambio, usá esta
@@ -84,9 +80,8 @@
 
       <!-- EMPIEZA CONTENEDOR 2 -->
 
-      <section>
-        <img src="./img/recursos2.jpg" alt="icono2recursos" />
-        <div>
+      <section class="contenedor2_recursos">
+        <div class="contenedor2_textos">
           <h2>Desbloqueá perspectivas de categoría más profundas</h2>
           <p>
             Obtené una comprensión más profunda de tu categoría y competencia
@@ -100,14 +95,18 @@
 
       <!-- EMPIEZA CONTENEDOR 3 -->
 
-      <section>
+      <section class="contenedor3_recursos">
+        <div class="wrapper3_recursos">
+        <div class="imagen3_recursos">
         <img src="./img/recursos3.png" alt="icono3recursos" />
-        <div>
+        </div>
+        <div class="columna-izquierda_recursos">
           <h2>
             Obtené información, datos e inspiración en tu bandeja de entrada
           </h2>
           <button>Suscribirme</button>
         </div>
+      </div>
       </section>
     </main>
 

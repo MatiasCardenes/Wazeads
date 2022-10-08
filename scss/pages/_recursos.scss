@@ -1,0 +1,129 @@
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .contenedor1_recursos {
+    background-image: linear-gradient(
+        89.29deg,
+        rgba(0, 0, 0, 0.8) 6.72%,
+        rgba(0, 0, 0, 0) 73.38%
+      ),
+      url(../img/recursos1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .contenedor1_recursos {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    padding: 0 80px;
+    margin-bottom: 32px;
+  }
+
+  .contenedor1_textos {
+    max-width: 650px;
+    padding: 0 30px;
+    h1 {
+      color: white;
+      font-size: 55px;
+      margin-bottom: 40px;
+      line-height: 68px;
+    }
+    p {
+      color: white;
+      margin-bottom: 55px;
+      line-height: 30px;
+    }
+  }
+
+  .contenedor2_recursos {
+    background-image: linear-gradient(
+        89.29deg,
+        rgba(0, 0, 0, 0.8) 6.72%,
+        rgba(0, 0, 0, 0) 73.38%
+      ),
+      url(../img/recursos2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    box-sizing: border-box;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .contenedor2_recursos {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    padding: 0 80px;
+    margin-bottom: 32px;
+  }
+
+  .contenedor2_textos {
+    max-width: 700px;
+    padding: 0 30px;
+    h2 {
+      color: white;
+      font-size: 55px;
+      margin-bottom: 40px;
+      line-height: 68px;
+    }
+    p {
+      color: white;
+      margin-bottom: 55px;
+      line-height: 30px;
+    }
+  }
+
+
+    .contenedor3_recursos {
+        max-width: 1440px;
+        margin: 0 auto;
+        background-color: #53ffa1;
+        padding: 70px 80px;
+        margin-bottom: 32px;
+      }
+      .imagen3_recursos {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        img {
+          height: 250px;
+          width: auto;
+          display: block;
+          margin: 0px auto 50px;
+        }
+      }
+      .wrapper3_recursos {
+        flex-direction: row-reverse;
+        display: flex;
+      }
+      .columna-izquierda_recursos {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        h2 {
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 58px;
+          max-width: 500px;
+          padding-bottom: 32px;
+        }
+      }
+
+
+
+}
