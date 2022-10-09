@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Utilizá esta herramienta interactiva para descubrir los tipos de negocios a los que navegan los consumidores con Waze.">
+    <meta name="keywords" content="waze, anuncios, marcas, publicidad">
     <link
       rel="shortcut icon"
       href="./img/favicon.svg"
@@ -16,14 +18,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <script src="https://kit.fontawesome.com/ee46287eab.js" crossorigin="anonymous"></script>
-    <title>Waze Ads</title>
+    <title>Waze Ads - Recursos</title>
   </head>
 
   
   <body>
     <!-- EMPIEZA HEADER -->
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg padding-1">
         <div class="container">
             <div>
               <a href="./index.html">
@@ -72,9 +74,10 @@
             de demanda en evolución para ayudar a optimizar tu estrategia de
             marketing
           </p>
-          <button>Explorar</button>
+          <button class="boton1">Explorar</button>
         </div>
       </section>
+    </main>
 
       <!-- TERMINA CONTENEDOR 1 -->
 
@@ -87,7 +90,7 @@
             Obtené una comprensión más profunda de tu categoría y competencia
             con información de navegación exclusiva de Waze.
           </p>
-          <button>Contactanos</button>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalsuscribite">Contactanos</button>
         </div>
       </section>
 
@@ -104,11 +107,10 @@
           <h2>
             Obtené información, datos e inspiración en tu bandeja de entrada
           </h2>
-          <button>Suscribirme</button>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalsuscribite">Suscribirme</button>
         </div>
       </div>
       </section>
-    </main>
 
     <!-- TERMINA CONTENEDOR 3 -->
 
@@ -119,7 +121,7 @@
       <div class="footer1">
         <img src="./img/wazelogo.png" alt="logofooter">
         <p>Recibí nuestro newsletter</p>
-        <button>Suscribite</button>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalsuscribite">Suscribite</button>
       </div>
 
       <div class="box__footer">  
@@ -149,6 +151,83 @@
     </footer>
 
     <!-- TERMINA FOOTER -->
+
+          <!-- MODALS -->
+
+    <div class="modal" id="modalsuscribite">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-tittle">Empezá a recibir información valiosa e ideas</h2>
+            <button class="btn btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <input
+              type="text"
+              class="nombre"
+              placeholder="Nombre"
+            />
+            <input
+              type="text"
+              class="apellido"
+              placeholder="Apellido"
+            />
+            <input
+              type="text"
+              class="correo-electronico"
+              placeholder="Correo elecetrónico de negocio"
+            />
+            <input
+              type="text"
+              class="negocio"
+              placeholder="Negocio"
+            />
+            <input
+              type="text"
+              class="puesto"
+              placeholder="Puesto"
+            />
+            <input
+              type="text"
+              class="pais"
+              placeholder="País"
+            />
+            <input
+              type="text"
+              class="anuncios"
+              placeholder="¿Para quién compras anuncios?"
+            />
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Me gustaría ponerme en contacto con el equipo de ventas de Waze Ads.
+              </label>
+            </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Registrate para recibir ofertas, actualizaciones, información valiosa y mucho más sobre la publicidad en Waze. Podes darte de baja en cualquier momento.
+                </label>
+              </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Comprendo que mi información se usará conforme a la Política de Privacidad de Waze.
+                  </label>
+                </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn" data-bs-dismiss="modal">Enviar</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TERMINA MODALS -->
+
         <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>

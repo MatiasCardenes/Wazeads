@@ -1,13 +1,168 @@
+// EMPIEZA CONTENEDOR 1 MOBILE
+
+.contenedor1_porquewaze {
+  margin: 0 28px;
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 64px 32px;
+  h1 {
+    align-self: flex-start;
+    max-width: 610px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 40px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-bottom: 40px;
+  }
+}
+
+// TERMINA CONTENEDOR 1 MOBILE
+
+// EMPIEZA CONTENEDOR 2 MOBILE
+
+.contenedor2__porquewaze {
+  margin: 0 28px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  h2 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+  }
+}
+
+.columnas__porquewaze {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+
+}
+
+.columna__porquewaze {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: #963eff;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 8px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+}
+
+// TERMINA CONTENEDOR 2 MOBILE
+
+// EMPIEZA CONTENEDOR 3 MOBILE
+
+.contenedor3__porquewaze {
+  margin: 0 28px;
+  img {
+    margin-bottom: 50px;
+    width: 180px;
+  }
+}
+.columnas3__porquewaze {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+}
+.columnaizquierda__porquewaze {
+  padding-bottom: 24px;
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 32px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    padding-bottom: 32px;
+  }
+  button {
+    display: inline-block;
+    border: 2px solid #000;
+    margin-bottom: 32px;
+  }
+}
+.columnaderecha__porquewaze {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  line-height: 35px;
+  margin-bottom: 32px;
+}
+
+// TERMINA CONTENEDOR 3 MOBILE
+
+// EMPIEZA CONTENEDOR 4 MOBILE
+
+.contenedor4__porquewaze {
+  margin: 0 28px;
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 64px 32px;
+  h2 {
+    align-self: flex-start;
+    max-width: 610px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 40px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-bottom: 40px;
+  }
+}
+
+
+// TERMINA CONTENEDOR 4 MOBILE
+
+
+
 @media (min-width: 992px) {
-  /* EMPIEZA ¿POR QUE WAZE? */
-  /* CONTENEDOR 1 */
-  .contenedor1__porquewaze {
+
+  // EMPIEZA CONTENEDOR 1 
+  .contenedor1_porquewaze {
     background-image: linear-gradient(
         89.29deg,
         rgba(0, 0, 0, 0.8) 6.72%,
         rgba(0, 0, 0, 0) 73.38%
       ),
-      url(../img/porquewaze1.jpg);
+      url(../img/porquewaze5.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,66 +171,39 @@
     max-width: 1440px;
     margin: 0 auto;
   }
-  .contenedor1__porquewaze {
+
+  .contenedor1_porquewaze {
     display: flex;
     flex-direction: column;
     height: 600px;
     justify-content: center;
     padding: 0 80px;
     margin-bottom: 32px;
-  }
-  .contenedor1textos__porquewaze {
-    padding: 0px 30px;
-    max-width: 550px;
-    h2 {
-      color: white;
-      font-size: 22px;
-      margin-bottom: 32px;
-    }
     h1 {
       color: white;
       font-size: 55px;
-      margin-bottom: 32px;
       line-height: 68px;
-    }
-    p {
-      color: white;
-      margin-bottom: 60px;
-      line-height: 32px;
-    }
-  }
-  .carousel-slide {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-  .carousel-item {
-    height: 32rem;
-    animation: transform 16s infinite ease-in-out;
-  }
-  .carousel-caption {
-    bottom: 4rem;
-    left: 7%;
-    max-width: 500px;
-    h2 {
-      font-size: 20px;
-      margin-bottom: 15px;
-    }
-    h1 {
-      font-size: 50px;
       margin-bottom: 40px;
     }
     p {
+      color: white;
       font-size: 18px;
-      margin-bottom: 50px;
+      line-height: 30px;
     }
   }
+
+  .contenedor-textos_porquewaze {
+    padding: 0px 30px;
+    max-width: 600px;
+  }
+
   /* TERMINA CONTENEDOR 1 */
   /* EMPIEZA CONTENEDOR 2 */
   .contenedor2__porquewaze {
     max-width: 1440px;
     margin: 0 auto;
     padding: 40px;
-    h1 {
+    h2 {
       display: flex;
       justify-content: center;
       padding: 22px 0;
@@ -95,22 +223,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1 {
+    h3 {
       color: #963eff;
       font-size: 60px;
       font-weight: 600;
       padding-bottom: 8px;
     }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 29px;
+      padding-bottom: 32px;
+      text-align: center;
+    }
   }
   /* TERMINA CONTENEDOR 2 */
   /* EMPIEZA CONTENEDOR 3 */
   .contenedor3__porquewaze {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 80px;
     img {
       margin-bottom: 50px;
-      width: 180px;
+      width: 200px;
     }
   }
   .columnas3__porquewaze {
@@ -120,7 +254,7 @@
   .columnaizquierda__porquewaze {
     padding-bottom: 24px;
     max-width: 500px;
-    h1 {
+    h2 {
       font-size: 48px;
       font-weight: 600;
       line-height: 58px;
@@ -171,7 +305,7 @@
     height: 500px;
     justify-content: center;
     padding: 0 80px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
   .contenedor4textos__porquewaze {
     color: #fff;

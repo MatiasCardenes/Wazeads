@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li,
+ul,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+
+header img {
+  display: inline-block;
+  height: auto;
+  max-width: 150%;
+  vertical-align: middle;
+}
+
+button {
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 48px;
+}
+
+button:hover {
+  border-radius: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+}

@@ -1,7 +1,6 @@
 /* EMPIEZA FOOTER MOBILE*/
 .footer1 {
-  margin: 60px 28px;
-  padding: 0;
+  margin: 0 28px;
   img {
     width: 160px;
   }
@@ -13,6 +12,7 @@
   button {
     display: inline-block;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     width: 100%;
     border: 2px solid #000;
@@ -38,6 +38,7 @@
   justify-content: center;
   gap: 10px;
   margin-bottom: 10px;
+  margin-right: 30px;
 }
 .fa-brands {
   font-size: 30px;
@@ -133,6 +134,4 @@
       font-weight: 500;
     }
   }
-
-  /* TERMINA FOOTER */
 }
