@@ -144,7 +144,6 @@
   border: 2px solid transparent;
   border-radius: 13px;
   box-sizing: border-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -216,6 +215,233 @@
   }
 }
 // TERMINA CONTENEDOR 4 MOBILE
+@media (min-width: 768px) {
+  /* EMPIEZA CONTENEDOR 1 TABLET*/
+
+.contenedor1asistencia {
+  margin: 0 40px;
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 64px 32px;
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 20px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+}
+
+// TERMINA CONTENEDOR 1 TABLET
+
+/* EMPIEZA CONTENEDOR 2 TABLET*/
+
+.contenedor2_asistencia {
+  margin: 0 40px;
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 64px 32px;
+  h2 {
+    align-self: flex-start;
+    max-width: 610px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    padding-bottom: 10px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-bottom: 40px;
+  }
+}
+
+// TERMINA CONTENEDOR 2 TABLET
+
+
+// EMPIEZA CONTENEDOR 3 TABLET
+.cards_asistencia {
+  margin: 0 40px;
+  align-items: center;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  padding: 40px 32px;
+}
+
+.card1_asistencia {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    font-size: 24px;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  button {
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  img {
+    width: 200px;
+    align-self: center;
+  }
+}
+
+.card2_asistencia {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    font-size: 24px;
+    padding-bottom: 8px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  button {
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  img {
+    width: 200px;
+    align-self: center;
+  }
+}
+// TERMINA CONTENEDOR 3 TABLET
+
+// EMPIEZA CONTENEDOR 4 TABLET
+
+.contenedor4_asistencia {
+  margin: 0 40px;
+  margin-bottom: 32px;
+}
+
+.titulo4_asistencia {
+  padding-bottom: 24px;
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+}
+
+.wrapper4_asistencia {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__card__4__asistencia {
+  margin-bottom: 32px;
+  background-color: #87f6c2;
+  border: 2px solid transparent;
+  border-radius: 13px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 218px;
+  padding: 40px 32px;
+  h3 {
+    padding-bottom: 16px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  p {
+    line-height: 30px;
+    min-width: 260px;
+    padding-bottom: 26px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+.wrapper__card4__asistencia {
+  background-color: #3cf;
+  border: 2px solid transparent;
+  border-radius: 13px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 218px;
+  padding: 40px 32px;
+  h3 {
+    padding-bottom: 16px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  p {
+    line-height: 30px;
+    min-width: 260px;
+    padding-bottom: 26px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+// TERMINA CONTENEDOR 4 TABLET
+}
 
 @media (min-width: 992px) {
   .contenedor1asistencia {
@@ -351,7 +577,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 0;
+    padding: 0 67px;
     max-width: 1440px;
     margin: 0 auto;
     img {

@@ -148,9 +148,162 @@
   }
 }
 
-
 // TERMINA CONTENEDOR 4 MOBILE
 
+@media (min-width: 768px) {
+
+  // EMPIEZA CONTENEDOR 1 TABLET
+  .contenedor1_porquewaze {
+    margin: 0 40px;
+    background-color: #3cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    padding: 64px 32px;
+    h1 {
+      align-self: flex-start;
+      max-width: 610px;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 48px;
+      padding-bottom: 40px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      padding-bottom: 40px;
+    }
+  }
+  
+  // TERMINA CONTENEDOR 1 TABLET
+  
+  // EMPIEZA CONTENEDOR 2 TABLET
+  
+  .contenedor2__porquewaze {
+    margin: 0 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    h2 {
+      padding-bottom: 20px;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 38px;
+      text-align: center;
+    }
+  }
+  
+  .columnas__porquewaze {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  
+  }
+  
+  .columna__porquewaze {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      color: #963eff;
+      font-size: 40px;
+      font-weight: 600;
+      padding-bottom: 8px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 29px;
+      padding-bottom: 32px;
+      text-align: center;
+    }
+  }
+  
+  // TERMINA CONTENEDOR 2 TABLET
+  
+  // EMPIEZA CONTENEDOR 3 TABLET
+  
+  .contenedor3__porquewaze {
+    margin: 0 40px;
+    img {
+      margin-bottom: 50px;
+      width: 180px;
+    }
+  }
+  .columnas3__porquewaze {
+    display: flex;
+    flex-direction: row;
+    text-align: flex-start;
+  }
+  .columnaizquierda__porquewaze {
+    padding-bottom: 24px;
+    max-width: 370px;
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 40px;
+      padding-bottom: 32px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 29px;
+      padding-bottom: 32px;
+    }
+    button {
+      display: inline-block;
+      border: 2px solid #000;
+      margin-bottom: 32px;
+    }
+  }
+  .columnaderecha__porquewaze {
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    line-height: 35px;
+    margin-bottom: 32px;
+  }
+  
+  // TERMINA CONTENEDOR 3 TABLET
+  
+  // EMPIEZA CONTENEDOR 4 TABLET
+  
+  .contenedor4__porquewaze {
+    margin: 0 40px;
+    background-color: #3cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    box-sizing: border-box;
+    margin-bottom: 32px;
+    padding: 64px 32px;
+    h2 {
+      align-self: flex-start;
+      max-width: 610px;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 48px;
+      padding-bottom: 40px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      padding-bottom: 40px;
+    }
+  }
+  
+  // TERMINA CONTENEDOR 4 TABLET
+}
 
 
 @media (min-width: 992px) {

@@ -318,6 +318,324 @@
 
 /* TERMINA CONTENEDOR 6 MOBILE */
 
+@media (min-width: 768px) {
+  /* EMPIEZA CONTENEDOR 1 TABLET*/
+.contenedor1 {
+  margin: 0 40px;
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 64px 32px;
+  h1 {
+    align-self: flex-start;
+    max-width: 610px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 40px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding-bottom: 40px;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+/* TERMINA CONTENEDOR 1 TABLET*/
+/* EMPIEZA CONTENEDOR 2 TABLET */
+.contenedor2 {
+  margin: 0 40px;
+  margin-bottom: 32px;
+  overflow: hidden;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-textos2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 150px;
+  h2 {
+    box-sizing: border-box;
+    padding: 0 32px 24px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  p {
+    box-sizing: border-box;
+    padding: 0 32px 32px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+}
+
+.imagen2 {
+  background-image: url(../img/inicio2.png);
+  display: flex;
+  padding-left: 200px;
+  left: -20px;
+}
+
+/* TERMINA CONTENEDOR 2 TABLET */
+/* EMPIEZA CONTENEDOR 3 TABLET*/
+.contenedor3 {
+  margin: 0 40px;
+  align-items: center;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.titulo h2 {
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  min-height: 220px;
+  &__card {
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__card img {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 8px;
+  }
+  p {
+    font-weight: 200;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+.boton3 {
+  display: block;
+  margin: 40px 0 0;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin-bottom: 32px;
+}
+
+/* TERMINA CONTENEDOR 3 TABLET*/
+/* EMPIEZA CONTENEDOR 4 TABLET */
+.contenedor4 {
+  margin: 0 40px;
+}
+
+.titulo4 {
+  padding-bottom: 24px;
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+}
+
+.wrapper4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__card__4 {
+  margin-bottom: 32px;
+  background-color: #87f6c2;
+  border: 2px solid transparent;
+  border-radius: 13px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 32px;
+  h3 {
+    padding-bottom: 16px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  p {
+    line-height: 30px;
+    min-width: 260px;
+    padding-bottom: 26px;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+.wrapper__card4 {
+  margin-bottom: 32px;
+  background-color: #3cf;
+  border: 2px solid transparent;
+  border-radius: 13px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 32px;
+  h3 {
+    padding-bottom: 16px;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+  }
+  p {
+    line-height: 30px;
+    min-width: 260px;
+    padding-bottom: 26px;
+    font-size: 17px;
+    font-weight: 300;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+/* TERMINA CONTENEDOR 4 TABLET */
+/* EMPIEZA CONTENEDOR 5 TABLET */
+.contenedor5 {
+  margin: 32px 40px;
+  background: #53ffa1;
+  border-radius: 13px;
+  padding: 77px 24px 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper5 {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  h2 {
+    max-width: 400px;
+    padding-bottom: 32px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+.imagen5 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  img {
+    display: block;
+    margin: -50px 55px 50px;
+    width: 160px;
+    animation-name: float;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+/* TERMINA CONTENEDOR 5 TABLET */
+/* EMPIEZA CONTENEDOR 6 TABLET */
+.contenedor6 {
+  margin: 0 40px;
+  background-color: #3cf;
+  border-radius: 10px;
+  padding: 64px 32px;
+  margin-bottom: 32px;
+}
+
+.wrapper6 {
+  h2 {
+    padding-bottom: 24px;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  p {
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  button {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    transition: all 0.1s ease-in-out;
+  }
+}
+
+/* TERMINA CONTENEDOR 6 TABLET */
+}
+
 @media (min-width: 992px) {
   /* EMPIEZA CONTENEDOR 1 */
   .contenedor1 {

@@ -215,6 +215,226 @@
 
 /* TERMINA CONTENEDOR 4 MOBILE*/
 
+@media (min-width: 768px) {
+  /* EMPIEZA CONTENEDOR 1 TABLET*/
+.soluciones1 {
+  margin: 0 28px;
+}
+
+.soluciones1 {
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 50px 32px;
+}
+
+.soluciones1textos {
+  h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 32px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 32px;
+  }
+}
+
+.boton1soluciones {
+  border: 2px solid transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 13px 48px;
+  transition: all 0.1s ease-in-out;
+}
+
+/* TEMRINA CONTENEDOR 1 TABLET*/
+/* EMPIEZA CONTENEDOR 2 TABLET*/
+.soluciones2 {
+  margin: 0 28px;
+}
+
+.soluciones2 {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.imagensoluciones2 {
+  display: flex;
+  height: 360px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  img {
+    height: 468px;
+    width: 263px;
+  }
+}
+
+.soluciones2textos {
+  padding: 24px 32px 0;
+  h2 {
+    padding-bottom: 32px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+}
+
+.nombre {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-bottom: 2px solid #000;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  border-top: 0;
+  font-size: 18px;
+  margin-top: 32px;
+  outline: 0;
+  padding-bottom: 17px;
+  width: 100%;
+}
+
+.descripcion {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-bottom: 2px solid #000;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  border-top: 0;
+  font-size: 18px;
+  margin-top: 32px;
+  outline: 0;
+  padding-bottom: 17px;
+  width: 100%;
+}
+
+.direccion {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-bottom: 2px solid #000;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  border-top: 0;
+  font-size: 18px;
+  margin-top: 32px;
+  outline: 0;
+  padding-bottom: 17px;
+  width: 100%;
+}
+
+.botonsoluciones2 {
+  display: block;
+  margin: 40px 0 0;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 2px solid black;
+  margin-bottom: 32px;
+}
+
+/* TERMINA CONTENEDOR 2 TABLET*/
+/* EMPIEZA CONTENEDOR 3 TABLET*/
+.soluciones3 {
+  margin: 0 28px;
+}
+
+.soluciones3 {
+  background-color: #3cf;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  padding: 22px 32px;
+  h2 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 32px;
+  }
+}
+/* TERMINA CONTENEDOR 3 TABLET*/
+/* EMPIEZA CONTENEDOR 4 TABLET*/
+.soluciones4 {
+  margin: 0 28px;
+}
+.soluciones4 {
+  background: #1ee592;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  padding: 40px 0;
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+}
+.columnas {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+}
+.columna4 {
+  padding-bottom: 0;
+  padding-right: 0;
+  h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-top: 5px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-top: 5px;
+    margin-bottom: 32px;
+  }
+}
+.boton4soluciones {
+  margin: 0 auto;
+}
+
+/* TERMINA CONTENEDOR 4 TABLET*/
+
+}
+
 @media (min-width: 992px) {
   /* EMPIEZA CONTENEDOR 1 */
   .soluciones1 {
