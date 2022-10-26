@@ -8888,7 +8888,7 @@ button:hover {
 
 /* TERMINA CONTENEDOR 6 MOBILE */
 @media (min-width: 768px) {
-  /* EMPIEZA CONTENEDOR 1 MOBILE*/
+  /* EMPIEZA CONTENEDOR 1 TABLET*/
   .contenedor1 {
     margin: 0 40px;
     background-color: #3cf;
@@ -8920,8 +8920,8 @@ button:hover {
       font-weight: 500;
       padding: 13px 48px;
       transition: all 0.1s ease-in-out; }
-  /* TERMINA CONTENEDOR 1 MOBLIE*/
-  /* EMPIEZA CONTENEDOR 2 MOBILE */
+  /* TERMINA CONTENEDOR 1 TABLET*/
+  /* EMPIEZA CONTENEDOR 2 TABLET */
   .contenedor2 {
     margin: 0 40px;
     margin-bottom: 32px;
@@ -8953,8 +8953,8 @@ button:hover {
     display: flex;
     padding-left: 200px;
     left: -20px; }
-  /* TERMINA CONTENEDOR 2 MOBILE */
-  /* EMPIEZA CONTENEDOR 3 MOBILE*/
+  /* TERMINA CONTENEDOR 2 TABLET */
+  /* EMPIEZA CONTENEDOR 3 TABLET*/
   .contenedor3 {
     margin: 0 40px;
     align-items: center;
@@ -8997,8 +8997,8 @@ button:hover {
     border-radius: 30px;
     border: 2px solid black;
     margin-bottom: 32px; }
-  /* TERMINA CONTENEDOR 3 MOBILE*/
-  /* EMPIEZA CONTENEDOR 4 MOBILE */
+  /* TERMINA CONTENEDOR 3 TABLET*/
+  /* EMPIEZA CONTENEDOR 4 TABLET */
   .contenedor4 {
     margin: 0 40px; }
   .titulo4 {
@@ -9077,8 +9077,8 @@ button:hover {
       font-weight: 500;
       padding: 13px 48px;
       transition: all 0.1s ease-in-out; }
-  /* TERMINA CONTENEDOR 4 MOBILE */
-  /* EMPIEZA CONTENEDOR 5 MOBILE */
+  /* TERMINA CONTENEDOR 4 TABLET */
+  /* EMPIEZA CONTENEDOR 5 TABLET */
   .contenedor5 {
     margin: 32px 40px;
     background: #53ffa1;
@@ -9118,8 +9118,8 @@ button:hover {
       animation-iteration-count: infinite;
       animation-direction: alternate;
       animation-timing-function: ease-in-out; }
-  /* TERMINA CONTENEDOR 5 MOBILE */
-  /* EMPIEZA CONTENEDOR 6 MOBILE */
+  /* TERMINA CONTENEDOR 5 TABLET */
+  /* EMPIEZA CONTENEDOR 6 TABLET */
   .contenedor6 {
     margin: 0 40px;
     background-color: #3cf;
@@ -9143,7 +9143,7 @@ button:hover {
     font-weight: 500;
     padding: 13px 48px;
     transition: all 0.1s ease-in-out; }
-  /* TERMINA CONTENEDOR 6 MOBILE */ }
+  /* TERMINA CONTENEDOR 6 TABLET */ }
 
 @media (min-width: 992px) {
   /* EMPIEZA CONTENEDOR 1 */
@@ -9564,7 +9564,7 @@ button:hover {
     transition: all 0.1s ease-in-out; }
 
 @media (min-width: 768px) {
-  /* EMPIEZA CONTENEDOR 1 MOBILE*/
+  /* EMPIEZA CONTENEDOR 1 TABLET*/
   .contenedor1asistencia {
     margin: 0 40px;
     background-color: #3cf;
@@ -9588,7 +9588,7 @@ button:hover {
       font-size: 16px;
       font-weight: 300;
       line-height: 26px; }
-  /* EMPIEZA CONTENEDOR 2 MOBILE*/
+  /* EMPIEZA CONTENEDOR 2 TABLET*/
   .contenedor2_asistencia {
     margin: 0 40px;
     background-color: #3cf;
@@ -10760,7 +10760,7 @@ button:hover {
 
 /* TERMINA CONTENEDOR 4 MOBILE*/
 @media (min-width: 768px) {
-  /* EMPIEZA CONTENEDOR 1 MOBILE*/
+  /* EMPIEZA CONTENEDOR 1 TABLET*/
   .soluciones1 {
     margin: 0 28px; }
   .soluciones1 {
@@ -10792,8 +10792,8 @@ button:hover {
     font-weight: 500;
     padding: 13px 48px;
     transition: all 0.1s ease-in-out; }
-  /* TEMRINA CONTENEDOR 1 MOBILE*/
-  /* EMPIEZA CONTENEDOR 2 MOBILE*/
+  /* TEMRINA CONTENEDOR 1 TABLET*/
+  /* EMPIEZA CONTENEDOR 2 TABLET*/
   .soluciones2 {
     margin: 0 28px; }
   .soluciones2 {
@@ -10867,8 +10867,8 @@ button:hover {
     border-radius: 30px;
     border: 2px solid black;
     margin-bottom: 32px; }
-  /* TERMINA CONTENEDOR 2 MOBILE*/
-  /* EMPIEZA CONTENEDOR 3 MOBILE*/
+  /* TERMINA CONTENEDOR 2 TABLET*/
+  /* EMPIEZA CONTENEDOR 3 TABLET*/
   .soluciones3 {
     margin: 0 28px; }
   .soluciones3 {
@@ -10889,8 +10889,8 @@ button:hover {
       font-size: 16px;
       margin-bottom: 32px;
       line-height: 32px; }
-  /* TERMINA CONTENEDOR 3 MOBILE*/
-  /* EMPIEZA CONTENEDOR 4 MOBILE*/
+  /* TERMINA CONTENEDOR 3 TABLET*/
+  /* EMPIEZA CONTENEDOR 4 TABLET*/
   .soluciones4 {
     margin: 0 28px; }
   .soluciones4 {
@@ -10930,7 +10930,7 @@ button:hover {
       margin-bottom: 32px; }
   .boton4soluciones {
     margin: 0 auto; }
-  /* TERMINA CONTENEDOR 4 MOBILE*/ }
+  /* TERMINA CONTENEDOR 4 TABLET*/ }
 
 @media (min-width: 992px) {
   /* EMPIEZA CONTENEDOR 1 */
